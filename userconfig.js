@@ -96,18 +96,6 @@ const default_configuration = {
               icon: "calendar-filled",
               icon_color: palette.peach,
             },
-            {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
-              icon_color: palette.red,
-            },
-            {
-              name: "drive",
-              url: "https://drive.google.com/drive/home",
-              icon: "brand-google-drive",
-              icon_color: palette.blue,
-            },
           ],
         },
         {
