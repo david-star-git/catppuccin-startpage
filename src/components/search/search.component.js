@@ -50,7 +50,8 @@ class Search extends Component {
 
       #search div {
           position: relative;
-          width: 100%;
+          width: calc(100% - 20px);
+          margin: 0 10px;
       }
 
       #search input {
@@ -449,7 +450,7 @@ class Search extends Component {
     if (index >= 0 && index < this.suggestions.length) {
       const suggestion = this.suggestions[index];
       this.saveToLocalHistory(suggestion.url, suggestion.title);
-      window.location = suggestion.url;
+      window.open(suggestion.url, '_blank');
     }
   }
 
@@ -568,7 +569,7 @@ class Search extends Component {
         // Navigate directly to the URL
         const formattedUrl = this.formatUrl(fullInput);
         this.saveToLocalHistory(formattedUrl);
-        window.location = formattedUrl;
+        window.open(formattedUrl, '_blank');
         return;
       }
 
@@ -579,7 +580,7 @@ class Search extends Component {
       }
 
       // Navigate to search results
-      window.location = engine + encodeURI(args.join(' '));
+      window.open(engine + encodeURI(args.join(' ')), '_blank');
       return;
     }
 
