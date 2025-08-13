@@ -5,7 +5,7 @@ class Config {
     overrideStorage: false,
     temperature: {
       // Default city for weather display
-      location: "London",
+      location: "Asuncion",
       // Temperature scale: C for Celsius, F for Fahrenheit
       scale: "C",
     },
@@ -17,22 +17,12 @@ class Config {
     additionalClocks: [
       {
         // Label displayed next to the clock
-        label: "UA",
+        label: "Vienna",
         // IANA timezone name (handles DST automatically)
-        timezone: "Europe/Kyiv",
+        timezone: "Europe/Vienna",
         // 24-hour format
         format: "h:i",
       },
-      {
-        // Clock label
-        label: "Tokyo",
-        // IANA timezone name
-        timezone: "Asia/Tokyo",
-        // 24-hour format without leading zero
-        format: "H:i",
-        // Locale for localised formatting
-        locale: "ja-JP",
-      }
     ],
     search: {
       // Search engine shortcuts and their URLs
