@@ -47,7 +47,7 @@ const default_configuration = {
       background_url: "src/img/banners/banner_09.gif",
       categories: [
         {
-          name: "social media",
+          name: "socials",
           links: [
             {
               name: "discord",
@@ -67,6 +67,12 @@ const default_configuration = {
               icon: "brand-whatsapp",
               icon_color: palette.green,
             },
+            {
+              name: "youtube",
+              url: "https://www.youtube.com/",
+              icon: "brand-youtube",
+              icon_color: palette.red,
+            },
           ],
         },
         {
@@ -77,6 +83,12 @@ const default_configuration = {
               url: "https://mail.google.com",
               icon: "brand-gmail",
               icon_color: palette.green,
+            },
+            {
+              name: "protonmail",
+              url: "https://mail.proton.me/u/0/inbox",
+              icon: "mail",
+              icon_color: palette.mauve,
             },
             {
               name: "calendar",
