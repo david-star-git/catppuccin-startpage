@@ -183,28 +183,16 @@ const default_configuration = {
           name: "resources",
           links: [
             {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.green,
+              name: "arch wiki",
+              url: "https://wiki.archlinux.org/title/Main_page",
+              icon: "navigation-check",
+              icon_color: palette.blue,
             },
             {
               name: "hackernews",
               url: "https://news.ycombinator.com",
               icon: "brand-redhat",
               icon_color: palette.peach,
-            },
-            {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
-              icon: "brand-uber",
-              icon_color: palette.red,
-            },
-            {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
-              icon_color: palette.blue,
             },
           ],
         },
